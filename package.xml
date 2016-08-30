@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>collision_test</name>
+  <version>0.0.0</version>
+  <description>With this package we test if an attached object is included in the collision checking</description>
+
+  <maintainer email="5jonetzk@informatik.uni-hamburg.de">Yannick Jonetzko</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>moveit_msgs</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+
+</package>
