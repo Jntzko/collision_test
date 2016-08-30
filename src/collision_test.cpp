@@ -125,7 +125,7 @@ int main(int argc, char** argv){
 
   collision_test.spawnObstacle();
 
-  collision_test.moveWithAttachedObject("tool0");
+  collision_test.moveWithAttachedObject("s_model_tool0");
   collision_test.moveWithAttachedObject("ur5_ee_link");
 
   return 0;
